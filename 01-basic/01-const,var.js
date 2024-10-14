@@ -10,4 +10,3 @@ console.table([num,Name, Emailid,password, Accountstate]);
 /*
 prefer not to use var for variable beacuse of issues in block scope and functional scope
 */
-//shahan
