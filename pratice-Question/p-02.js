@@ -38,10 +38,12 @@ const ascendingOrder = people.sort((personA,personB) => new Date(personA.DOB) - 
 
 
 
-        const department = people.reduce((acc,person) =>({...acc, [person.department]: acc[person.department] + 1 || 1}),{});
+            //const department = people.reduce((acc,person) =>({...acc, [person.department]: acc[person.department] + 1 || 1}),{});
             //console.log(department);
 
-            const dep = new set (people.map(person => person.department));
-            const numofDep = department.size;
-            console.log(numofDep);
-            
+    
+                const department = people.reduce((acc,person) =>{
+                    acc[person.department] = (acc[person.department] || 0) + 1;
+                    return acc;
+                },{});
+            // console.log(department);
