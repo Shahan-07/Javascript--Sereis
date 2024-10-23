@@ -22,18 +22,26 @@ const age = people.filter(person => new Date().getFullYear() - new Date(person.D
 //console.log(age);
 
 
-// const Name = people.map(({firstName, lastName}) => `${firstName}, ${lastName}`);   //  printing first and Last Name
-// console.log(Name);
+const Name = people.map(({firstName, lastName}) => `${firstName}, ${lastName}`);   //  printing first and Last Name
+//console.log(Name);
 
 
-const New = people.map(person => ({...person,fullName: `${person.firstName}, ${person.lastName}`}))         // printing full, first and last name
+const New = people.map(person => ({...person,fullName: `${person.firstName}, ${person.lastName}`})) ;        // printing full, first and last name
 //console.log(New);
 
 
 const ascendingOrder = people.sort((personA,personB) => new Date(personA.DOB) - new Date(personB.DOB));        // Getting in Ascending order
-//console.log(ascendingOrder);
+//console.log(ascendingOrder); // new Date(...) is used to convert the date strings (DOB) into JavaScript Date objects,
+                                // which can be easily compared using numerical operations.
 
 
-const department = people.reduce((acc,person) =>({...acc, [person.department]: acc[person.department] + 1 || 1}),{});
-//console.log(department);
 
+
+
+        const department = people.reduce((acc,person) =>({...acc, [person.department]: acc[person.department] + 1 || 1}),{});
+            //console.log(department);
+
+            const dep = new set (people.map(person => person.department));
+            const numofDep = department.size;
+            console.log(numofDep);
+            
