@@ -7,9 +7,9 @@ const ex5 = 'You can contact me on Twitter @codebubb or james@juniordevelopercen
 // Exercise 01
 // Using a regex pattern, get the 3 letter words in the ex1 string.
 
-const firstWords = ex1.match(/[a-zA-z]{3}/);  // for first three words
+const firstWords = ex1.match(/[a-zA-Z]{3}/);  // for first three words
 const firstDigits = ex1.match(/[a-zA-Z]{3}/g);   // for first three words gplobally
-//console.log(firstDigits);
+console.log(firstDigits);
 //console.log(firstWords);
 
 
@@ -39,7 +39,7 @@ const firstDigits = ex1.match(/[a-zA-Z]{3}/g);   // for first three words gploba
 // Using a regex pattern, find the telephone number contained within the ex4 string.
 
     const telephoneNum = ex4.match(/(\d{3,4}\s?){3}/g);
-    console.log(telephoneNum);
+    //console.log(telephoneNum);
 
 
 // Exercise 05
