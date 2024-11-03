@@ -220,12 +220,123 @@
 
                         // Program to Print the Fibonacci sequence
 
-                let a=0;
-                let b= 1;
-                    for(let i = 0;i <=5; i++){
-                        let temp = a + b;
-                        a = b;
-                        b = temp;
-                        console.log(temp);
+                // let a=0;
+                // let b= 1;
+                //     for(let i = 0;i <=5; i++){
+                //         let temp = a + b;
+                //         a = b;
+                //         b = temp;
+                //         console.log(temp);
                         
-                    }
+                //     }
+
+
+
+                        // Program to Find the Factors of a Number
+
+                // let number = prompt("please enter a number");
+
+                // for(let i = 1; i <= number; i++){
+                //     if(number % i == 0){
+                //         console.log(i);
+                //     }
+                // }
+
+
+                        // Program to Find Sum of a Natural Numbers using Recursion
+
+                // function sum(num){
+                //     if(num>0){
+                //         return num  + sum(num - 1)
+                //     } else{
+                //         return num;
+                //     }
+                // }
+                // let result = sum(3);
+                //console.log(result);
+                
+
+                        // Program to Replace Characters of a String 
+
+                let str = "Ali has aa red car and a red bike";
+                //console.log(str);
+
+                let newstr = str.replace('red','blue');
+                //console.log(newstr);
+                
+                
+                
+                        // Program to Reverse a String using for loop
+
+                // let strin = prompt('please enter a string');
+                // let strlength = strin.length;
+                // let ReverseStrin = '';
+
+                // for(let i = strlength-1; i >= 0; i--){
+                //     ReverseStrin += strin[i];
+                // }
+                // console.log(`${strin} reverse is ${ReverseStrin}`);
+                
+
+
+                        //  Program to Convert the First Letter of a String in to Uppercase
+
+                // let string = prompt("please enter a string");
+                // console.log(string);
+                
+                // let firstUpper = string.toUpperCase(0);
+                // console.log(firstUpper);
+                
+
+
+                        // Program to Count the Number of Vowels in a String using Regex
+
+                // let string = prompt('Please enter a string');
+                // const Reg = /[aeiou]/gi;
+
+                // let chars = string.match(Reg);
+                // console.log(chars);
+                // console.log(chars.length);
+                
+                
+
+                        // Program to Check whether a String Starts and Ends with Certain Characters 
+
+                // let string = prompt('please enter a string');
+                // let testStart = string.startsWith('S');
+                // let testEnd = string.endsWith('n');
+
+                // console.log(`starting is ${testStart} and ends with ${testEnd}`);
+
+                
+                
+                        // Program to Check whether a String Contains a Substring
+
+
+                // let string = prompt('please enter a string');
+                // let Substring = 'The';
+
+                // let test1 = string.includes(Substring);
+                // console.log(test1);
+
+                // let test2 = string.indexOf(Substring);
+                // console.log(test2);
+                
+                
+
+                        // Program to Check Palindrome using built-in Functions 
+
+                // let string = prompt('please enter a string');
+                // let stringArray = string.split('');
+
+                // let stringArrayRev = stringArray.reverse();
+                // let revString = stringArrayRev.join('');
+
+                // if(string === revString){
+                //     console.log(`${string} : is a palindrome`);
+                // } else{
+                //     console.log(`${string} is not a palindrome`);
+                // }
+                
+                
+                
