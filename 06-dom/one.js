@@ -21,3 +21,24 @@ document.querySelectorAll('li');    // select all the elements of the list
 document.querySelectorAll('li');
 const TempList = document.querySelectorAll('li');
 TempList[0].style.color = 'red';
+
+
+// example of changing the  style of a node through forEach function
+
+document.querySelectorAll('li');
+const list = document.querySelectorAll('li');
+list.forEach(function (li) {
+    li.style.Color = 'tan';
+})
+
+
+// examle of getting the elements through class selector and changing the style of HTMl collection  through Array.from()
+
+document.getElementsByClassName("list-items");
+const newList = document.getElementsByClassName("list-items");
+
+Array.from(newList);
+const convertedArray = Array.from(newList);
+convertedArray.forEach(function (li) {
+    li.style.color = 'teal';
+})
