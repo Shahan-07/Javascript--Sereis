@@ -1,7 +1,7 @@
 // example 1
 
 const heading = document.createElement('h1');
-console.log(heading);
+//console.log(heading);
 
 heading.className = 'mainH1';       // giving a class to an element
 heading.id = 'myId';                // giving an id to an element
@@ -35,7 +35,7 @@ document.body.appendChild(heading);
 // example 3
 
 const div = document.createElement('div');
-console.log(div);
+//console.log(div);
 
 div.className ="newClass";
 div.id = '-id';
@@ -47,5 +47,22 @@ const addT = document.createTextNode("This is the div of body");
 div.appendChild(addT);
 
 document.body.appendChild(div);
+
+
+const para = document.createElement('p');
+console.log(para);
+
+para.className = "mypara";
+para.id = "myIDD";
+
+para.style.backgroundColor = 'teal';
+para.style.width = '100px';
+
+const Adding = document.createTextNode("hello paragraph");
+para.appendChild(Adding);
+
+document.body.appendChild(para);
+
+
 
 

@@ -16,7 +16,6 @@ console.log(DayOne.nextElementSibling);             // targetting the next sibli
 
 console.log("Nodes : ",parent.childNodes);          // displays all the nodes of parent element, wheter  it is element or text node means space node
 
-console.log("Elements : ",parent.children);         // displays only the element nodes of parent element
-
+console.log("Elements : ",parent.children);         // displays only the element nodes of parent element    
 
 
