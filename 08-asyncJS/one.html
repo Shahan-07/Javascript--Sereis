@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS</title>
+</head>
+<body>
+    
+
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
+
+</body>
+<script>
+    
+    const changeText = function(){
+        document.querySelector("h1").innerHTML= "best JS series";
+    } 
+    const changeMe = setTimeout(changeText,2000);              // setting the time to change the text in 2m seconds
+
+    document.querySelector("#stop").addEventListener("click",()=>{
+        clearTimeout(changeMe);                                     // clearing the timeout if the changes not happen in 2 seconds
+        console.log("Stopped");
+        
+    })
+
+
+</script>
+</html>
