@@ -15,17 +15,22 @@
 
 <script>
 
+    let date;
     const saydate = function(){
         console.log("Shahan Alam");
     };
 
-    const date= setInterval(saydate,1000);
 
     document.querySelector("#start").addEventListener("click",()=>{
-        console.log(date);
+        if(!date){
+            date= setInterval(saydate,1000);
+        }
     });
     document.querySelector("#stop").addEventListener("click",()=>{
-        clearInterval(date);
+        if(date){
+            clearInterval(date);
+            null;
+        }
     });
 
 </script>
