@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Request</title>
+</head>
+<body style="background-color: #212121;">
+
+
+<script>
+
+    const requestUrl = "https://api.github.com/users/Shahan-07";
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET',requestUrl);
+    xhr.onreadystatechange = function(){
+        const data = JSON.parse(this.responseText);             // converting data into object
+        console.log(data.followers);
+        
+        console.log(data);
+        
+    }
+    xhr.send();
+
+</script>
+
+
+</body>
+</html>
