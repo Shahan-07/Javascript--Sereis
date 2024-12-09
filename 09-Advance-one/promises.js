@@ -100,12 +100,16 @@ async function getAllUser() {
 getAllUser();
 
 
+
+
 fetch('https://jsonplaceholder.typicode.com/users')
 .then((response)=>{
     return response.json();
 })
-.then((data)=>{
+.then((data)=>{                                                 // using of fetch Api
     console.log(data);
 })
 .catch((error)=>{console.log(error);
 });
+
+
