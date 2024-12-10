@@ -19,6 +19,11 @@
                 this.loginCount = loginCount;
                 this.isLoggedIn = isLoggedIn;
 
+                this.greeting = function(){
+                    console.log(`Welcome ${this.username}`);
+                    
+                }
+
                 return this;
             }
 
