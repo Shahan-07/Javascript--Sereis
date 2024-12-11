@@ -1,14 +1,14 @@
-// let myUser = {
-//     username:"Hitesh",
-//     loginCount : 8,
-//     signedIn:true,
+let myUser = {
+    username:"Hitesh",
+    loginCount : 8,
+    signedIn:true,
 
-//     getUserDetail : function(){
-//         console.log(`username: ${this.username}`);
+    getUserDetail : function(){
+        console.log(`username: ${this.username}`);
         
-//     }
-// }
-// console.log(myUser.username);
+    }
+}
+console.log(myUser.username); 
 
 
 
