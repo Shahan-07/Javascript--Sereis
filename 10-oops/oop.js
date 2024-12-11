@@ -8,7 +8,7 @@ let myUser = {
         
     }
 }
-console.log(myUser.username); 
+console.log(myUser.username);  
 
 
 
