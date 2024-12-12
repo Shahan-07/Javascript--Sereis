@@ -4,11 +4,11 @@ let myUser = {
     signedIn:true,
 
     getUserDetail : function(){
-        console.log(`username: ${this.username}`);
+        //console.log(`username: ${this.username}`);
         
     }
 }
-console.log(myUser.username);  
+//console.log(myUser.username);  
 
 
 
@@ -28,8 +28,8 @@ console.log(myUser.username);
             }
 
             const userOne = new user("Shahan",12,true);
-            console.log(userOne);
+            //console.log(userOne);
             
             const userTwo = new user("Shifan",19,"yes");
-            console.log(userTwo);
+            //console.log(userTwo);
             
