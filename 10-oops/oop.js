@@ -20,7 +20,7 @@ let myUser = {
                 this.isLoggedIn = isLoggedIn;
 
                 this.greeting = function(){
-                    console.log(`Welcome ${this.username}`);
+                    //console.log(`Welcome ${this.username}`);
                     
                 }
 
@@ -32,4 +32,5 @@ let myUser = {
             
             const userTwo = new user("Shifan",19,"yes");
             //console.log(userTwo);
+
             
