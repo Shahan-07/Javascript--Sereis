@@ -6,8 +6,8 @@ class user{
     logMe(){
         console.log(`usrname is ${this.username}`);
         
-    }
-}
+    };
+};
 
 class Teacher extends user{
     constructor(username,email, password){
