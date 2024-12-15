@@ -17,7 +17,7 @@
 
         changeGmail(){
             return `${this.email.toUpperCase()}`
-        }
+        }; 
 
     };
 
