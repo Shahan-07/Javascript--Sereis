@@ -15,7 +15,7 @@ class user{
     }
     set email(value){
         this._email = value.toUpperCase();
-    }
+    };
 }
 
 const chai  = new user("chai@gmail.com", "abcds");
