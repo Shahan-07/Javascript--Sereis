@@ -22,6 +22,7 @@
     background: #241e20;
     transform: scale(1.08);
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 .gallery img{
     width: 100%;
@@ -112,4 +113,50 @@ width: 70px;
 .color-select input:checked + span{
     transform: scale(0.7);
     box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}
+.quantity-select{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.quantity-select p{
+    width: 75px;
+}
+.quantity-select input{
+    background: #eee;
+    border: 0;
+    outline: 0;
+    padding: 2px 2px 2px 15px;
+    width: 50px;
+    border-radius: 12px;
+}
+form button{
+    background: #553ff0;
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+}
+.controls{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.btn{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    cursor: pointer;
+}
+.btn.active{
+    background: #553ff0;
 }
