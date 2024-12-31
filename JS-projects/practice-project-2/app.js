@@ -8,23 +8,24 @@ let result;
 switch(operator){
     case "+":
         result = number1 + number2;
-        console.log(result);
         break;
 
         case "-":
             result = number1 - number2;
-            console.log(result);
             break;
 
         case "*":
             result = number1 * number2;
-            console.log(result);
             break;
 
         case "/":
             result = number1 / number2;
-            console.log(result);
             break;
             
-        
+            default:
+                console.log("Invalid input");
+                break;
+                
 }
+
+console.log(result);
