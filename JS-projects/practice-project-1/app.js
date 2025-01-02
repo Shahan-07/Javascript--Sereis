@@ -20,6 +20,7 @@ if(shouldWePlay.toLowerCase() === "yes"){
         console.log("you go right and fall off a cliff...");
         
     }
+    
 
 
 } else if(shouldWePlay.toLowerCase() === "no"){

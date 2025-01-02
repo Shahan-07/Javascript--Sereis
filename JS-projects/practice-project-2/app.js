@@ -15,9 +15,10 @@ const number1 = getNumber("one");
 const number2 = getNumber("two");
 const operator = prompt("Enter Sign: ");
 
+
 let result;
 let valid = true;
-switch(operator){
+switch(operator){       // switch
     case "+":
         result = number1 + number2;
         break;
@@ -46,3 +47,4 @@ switch(operator){
 }
 if(valid)
 console.log(number1, operator, number2, "=", result);
+
