@@ -39,7 +39,14 @@ function deleteContact(){
 }
 
 function searchContact(){
+    const searchString = prompt("search: ").toLowerCase();
+    const result = [];
+
+    for(let contact of contacts){
+        if(contact.name.toLowerCase().includes(searchString)) result.push(contact);
     
+    }
+    listContacts(result);
 }
 
 function listContacts(contacts){
