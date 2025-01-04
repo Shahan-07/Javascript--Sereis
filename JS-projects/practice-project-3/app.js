@@ -38,7 +38,9 @@ function deleteContact(){
     
 }
 
-function searchContact(){}
+function searchContact(){
+    
+}
 
 function listContacts(contacts){
     for(let contact of contacts){
