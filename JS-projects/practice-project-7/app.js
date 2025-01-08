@@ -37,4 +37,5 @@ while(true){
         }
 }
 
+
 console.log("Wins:",win,"Losses:",losses,"Ties",ties);
